@@ -1,8 +1,8 @@
 import React, {Component} from "react";
 import './styles.css'
-import img1 from './fea1.jpg'
-import img2 from './fea2.png'
-import img3 from './fea2.png'
+import img1 from './courses.png'
+import img2 from './feeds.png'
+import img3 from './jobs.png'
 
 class Features extends Component {
     render() {
@@ -30,7 +30,7 @@ return(
                 role="tab"
                 aria-controls="tab-1"
                 aria-selected="true"
-                ><i class="fas fa-cog"></i>EXPLORE</a
+                ><i class="fas fa-cog"></i>SKILLS</a
               >
             </li>
             <li class="nav-item">
@@ -54,7 +54,7 @@ return(
                 role="tab"
                 aria-controls="tab-3"
                 aria-selected="false"
-                ><i class="fas fa-search"></i>NETWORK</a
+                ><i class="fas fa-search"></i>JOBS</a
               >
             </li>
           </ul>
@@ -75,11 +75,10 @@ return(
                       <div class="card-body">
                         <div class="text-wrapper">
                           <h4 class="card-title">
-                            KNOW WHAT'S HAPPENING AROUND
+                            COMPARE COURSES
                           </h4>
                           <p class="p-test">
-                            Quick tap on the explore icon jumps between
-                            communities and explore mode
+                            Compare and get best courses from the top platforms across the web.
                           </p>
                         </div>
                         {/* <div class="card-icon"> */}
@@ -90,9 +89,9 @@ return(
                     <div class="card left-pane">
                       <div class="card-body">
                         <div class="text-wrapper">
-                          <h4 class="card-title">NEVER MISS OUT</h4>
+                          <h4 class="card-title">EXCLUSIVE FEATURED DISCOUNTS</h4>
                           <p class="p-test">
-                            Find opportunities of a Lifetime. We’ve got your back at every step of your Journey
+                            Get exclusive discounts on best courses around the world through the featured courses.
                           </p>
                         </div>
                         {/* <div class="card-icon"> */}
@@ -103,9 +102,9 @@ return(
                     <div class="card left-pane">
                       <div class="card-body">
                         <div class="text-wrapper">
-                          <h4 class="card-title">CUT TO THE CHASE</h4>
+                          <h4 class="card-title">HUNDREDS OF CATEGORIES</h4>
                           <p class="p-test">
-                            Create events on the go and Manage them effortlessly
+                            Develop your skill in your field of interest from hundreds of categories available at SkillUnga.
                           </p>
                         </div>
                         {/* <div class="card-icon">
@@ -131,12 +130,11 @@ return(
                         </div>
                         <div class="text-wrapper">
                           <h4 class="card-title">
-                            EASY UPDATES AND NOTIFICATIONS
+                            SKILL TEST AND VERIFICATION
                           </h4>
                           <p class="p-test">
-                            Our super-efficient pop up mechanism provides you
-                            with important updates and notifications on the go –
-                            maximizing comfort and Importance
+                            Participate in weekly quizzes and skill ranking tests and get verified rankings
+                            by competing against the experts from all around the globe.
                           </p>
                         </div>
                       </div>
@@ -147,9 +145,9 @@ return(
                           <i class="far fa-bookmark"></i>
                         </div>
                         <div class="text-wrapper">
-                          <h4 class="card-title">GET INSPIRED</h4>
+                          <h4 class="card-title">VERIFIED E RESUME</h4>
                           <p class="p-test">
-                            Our team of college students around the world help over 1 Billion people create, innovate and explore
+                            Get a verified e-resume based on your skills and projects and stand apart from the crowd with your verified skills.
                           </p>
                         </div>
                       </div>
@@ -200,11 +198,10 @@ return(
                           <h4 class="card-title">
                             DISCUSSION BASED COMMUNITIES
                           </h4>
-                          <p class="p-test">
-                            InCampus is the Only platform with personalized
-                            discussion – based communities of college
-                            professionals, blocking out the world so you can
-                            focus on your passion
+                          <p class="p-test text-font-features-rajat">
+                            Join communities based solely on skills development discussions. Develop and flaunt your skills,
+                            increase your ranking, share your acheivements, thoughts and projects among peers and other 
+                            experts in your industry.
                           </p>
                         </div>
                       </div>
@@ -221,7 +218,7 @@ return(
                           </p>
                         </div>
                       </div>
-                      <div class="card">
+                      {/* <div class="card">
                         <div class="card-icon">
                           <i class="far fa-calendar-check"></i>
                         </div>
@@ -249,7 +246,7 @@ return(
                             towards creating a secured environment for our users
                           </p>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
         
                   </div>
@@ -277,13 +274,11 @@ return(
                         </div>
                         <div class="card-body">
                           <h4 class="card-title">
-                            SMOOTH NETWORKING EXPERIENCE
+                            JOBS AND INTERNSHIP ALERTS
                           </h4>
                           <p class="p-test">
-                            A new class of search engine with a customized fit
-                            that forms an exceptionally smooth experience for
-                            searching college based professionals and
-                            communities
+                            Get automatic jobs and internship alert of top 100 companies of the world 
+                            directly in your inbox. Apply, practice and get hired!
                           </p>
                         </div>
                       </div>
@@ -292,11 +287,10 @@ return(
                           <i class="far fa-file-code"></i>
                         </div>
                         <div class="card-body">
-                          <h4 class="card-title">NETWORK ALL ACROSS</h4>
+                          <h4 class="card-title">PERSONALISED JOB OPENINGS</h4>
                           <p class="p-test">
-                            Look for students all across the globe, with no
-                            restrictions whatsoever. Create grounded networks
-                            and commute progress in 1000+ colleges
+                            Get personalised jobs openings best fit for your industry and your skills.
+                            Finding a job has never been so easy.
                           </p>
                         </div>
                       </div>
@@ -307,11 +301,12 @@ return(
                         <div class="card-body">
                           <h4 class="card-title">ALUMINI CONNECT</h4>
                           <p class="p-test">
-                            We power ALumini Networks like Never Before. Connect with seniors who have walked the same path as you will.
+                            We power ALumini Networks like Never Before.
+                            Connect with alumni and mentors of your field and get advice directly from the ultimate winners.
                           </p>
                         </div>
                       </div>
-                      <div class="card">
+                      {/* <div class="card">
                         <div class="card-icon">
                           <i class="far fa-bookmark"></i>
                         </div>
@@ -323,7 +318,7 @@ return(
                             Stay secure and Share endlessly
                           </p>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
       

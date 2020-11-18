@@ -73,7 +73,7 @@ else{
       <div className="row justify-content-center align-self-center" data-aos="fade-up">
         <div className="col-md-6 intro-info order-md-first order-last" data-aos="zoom-in" data-aos-delay="100">
           <span>
-          <h2 className="rajat_heading_landing_web">Explore best courses<br/> from all the <br/> <span>top platforms</span></h2>
+          <h2 className="rajat_heading_landing_web">The modern skill<br/> platform for the <br/> <span>modern world.</span></h2>
           {/* <h2 className="rajat_heading_landing_web2">Develop most indemand<br/> skills along with<br/> <span>your peers.</span></h2> */}
           </span>
       <form class="rajat_rapid_hero_example" onSubmit={this.handleSubmit}>
